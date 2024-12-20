@@ -1,0 +1,72 @@
+.Request_class {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 200px;
+    font-size: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    
+}
+
+.Request_class:hover {
+    opacity: 0.5; 
+}
+
+.Request_class:active{
+    opacity: 0.15;
+}
+
+
+.Get_class{
+    color: white;
+    background-color: rgba(106, 26, 182, 0.879);
+    padding: 17px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: background-color 0.15s, color 0.15s;
+    
+
+}
+
+.Get_class:active{
+    
+    background-color: aquamarine;
+    color:rgb(35, 25, 13)
+}
+.Download_class {
+    color:rgba(122, 122, 121, 0.926);
+    font-size: 22px;
+    font-weight:bold;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color:white;
+    
+    transition: box-shadow 0.5s,border 0.15s;
+    vertical-align: top;
+   
+}
+
+.Download_class:hover{
+    background-color: bisque;
+    border: none;
+    color: rgb(199, 199, 129);
+    box-shadow: 4px 4px 15px black;  
+}
+
+.Download_class:active{
+    opacity: 0.5;
+    box-shadow: 4px 4px 15px black;
+}
+
+.span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+}
